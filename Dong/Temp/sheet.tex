@@ -1,0 +1,55 @@
+\documentclass[a4paper,utf8]{article}
+\usepackage{ctex}
+\usepackage{fancyhdr}
+\usepackage{amsmath,amssymb,geometry,lastpage,ulem}
+\usepackage{array,tabularx,tabulary,mhchem,xspace}
+\usepackage{floatrow,subfig,multirow,bigstrut}
+\usepackage{siunitx,booktabs,longtable,graphicx,xfrac}
+\pagestyle{empty}
+\begin{document}
+
+% \section*{数据处理}
+% \begin{enumerate}
+%     \item 电泳测量数据见表~1
+%     \item 界面移动速率：\\ ~\\
+%     $ \displaystyle u=\frac{\bar{h}}{t}= $ \\ ~\\
+%     \item 计算 $\zeta$ 电势:\\ ~\\
+%     $ \displaystyle \zeta=\frac{K\pi\eta u}{\varepsilon E}=\frac{K\pi\eta u}{\varepsilon(U/l)}= $ \\ ~\\
+%     \item 胶体带电荷类型：
+%     \item 聚沉实验结果见表~2
+% \end{enumerate}
+% \section*{数据表格}
+% \begin{table}[!ht]\caption{电泳测量结果}\centering
+%     \begin{tabular}{c c c c c c c c}\toprule
+%         序号 & $T/\unit{\degreeCelsius}$ & $t/\unit{\s}$ & $U/\unit{\V}$ & $\bar{l}/\unit{\m}$ & $\bar{h}/\unit{\m}$ & $u/\unit{\m\per\s}$ & $\zeta/\unit{\V}$ \\ \midrule 
+%         1 & \makebox[15mm]{} & \makebox[15mm]{} & \makebox[15mm]{} & \makebox[15mm]{} & \makebox[15mm]{} & \makebox[15mm]{} & \makebox[15mm]{} \\[2mm]
+%         2 &  &  &  &  &  &  & \\ \bottomrule
+%         \multicolumn{8}{c}{室温:\uline{\makebox[25mm]{}}\hfill $\eta $:\uline{\makebox[25mm]{}}\hfill $\varepsilon  $:\uline{\makebox[25mm]{}}\hfill} \\
+%     \end{tabular}
+% \end{table}
+% \begin{table}[!ht]\caption{聚沉实验结果}\centering
+%     \begin{tabular}{c c c c c}\toprule
+%         电解质 & 作用离子 & 现象 & 聚沉值/\unit{\mole\per\L} & 相对聚沉能力\\ \midrule
+%         \ce{KCl} & \makebox[20mm]{} & \makebox[40mm]{} & \makebox[20mm]{} & \makebox[20mm]{1} \\[2mm]
+%         \ce{K2CrO4} &  &  &  &  \\[2mm]
+%         \ce{K3[Fe(CN)6]} &  &  &  &  \\ \bottomrule
+%     \end{tabular}
+% \end{table}
+
+\begin{table}[!ht]\caption{实验药品理化数据}\centering
+    \begin{tabular}{c c c c c c c c}\toprule
+        名称 & 化学式 & $M$ & $\rho/\unit{\g/\mL}$ & $MP/\unit{\degreeCelsius}$ & $BP/\unit{\degreeCelsius}$ & 溶解度 & 安全性 \\ \midrule 
+        氢氧化钠 & \ce{NaOH} & 40 & 2.13 & 318 & 1390 & 易溶（水） & 强碱性、腐蚀性 \\
+        锌粉 & \ce{Zn} & 65 & 7.14 & 419 & 907 & / & / \\
+        二苯甲酮 & \ce{C13H10O} & 182 & 1.11 & 47-51 & 305 & 可溶（醇、醚） & 刺激性、易燃 \\
+        乙醇 & \ce{C2H5OH} & 46 & 0.789 & -114 & 78 & 混溶 & 挥发性、易燃 \\
+        盐酸 & \ce{HCl} & 36.5 & / & -27 & 48 & 易溶（水） & 强酸性、挥发性 \\
+        石油醚 & / & / & / & / & / & 易溶（有机） & 刺激性、有毒、易燃 \\
+        硼氢化钠 & \ce{NaBH4} & 37.83 & 1.07 & 400 & 500 & 易溶（极性） & 强碱性、刺激性 \\
+        甲醇 & \ce{CH3OH} & 32 & 0.791 & -97.8 & 64.8 & 易溶（水、有机） & 挥发性、有毒、易燃 \\
+        二苯甲醇 & \ce{C13H12O} & 184 & 1.10 & 65-67 & 297-298 & 不溶（水） & 刺激性 \\ \bottomrule
+
+    \end{tabular}
+\end{table}
+
+\end{document}
