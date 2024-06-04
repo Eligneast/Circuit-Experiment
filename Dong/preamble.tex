@@ -2,7 +2,7 @@
 \usepackage{amsmath,amssymb,geometry,lastpage,ulem}
 \usepackage{array,tabularx,tabulary,mhchem,xspace}
 \usepackage{floatrow,subfig,multirow,bigstrut}
-\usepackage{siunitx,booktabs,longtable,graphicx,xfrac}
+\usepackage{siunitx,booktabs,longtable,graphicx,xfrac,nameref}
 \lineskiplimit=1pt
 \lineskip=3pt
 \geometry{
@@ -51,3 +51,4 @@
 \newcommand{\qrange}[3]{\qtyrange[range-phrase = \text{$\sim$},range-units =single]{#1}{#2}{#3}}
 \floatsetup[table]{capposition=top}
 \newcolumntype{C}{>{\hfil}X<{\hfil}}
+\renewcommand{\Nameref}[1]{\textbf{\ref{#1}~\nameref{#1}}}
